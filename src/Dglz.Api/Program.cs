@@ -1,6 +1,18 @@
+using Dglz.Api.Configurations;
+using Dglz.Data.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<MeuDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString(name: "DefaultConnection"));
+});
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.ResolveDependencies();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
