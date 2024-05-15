@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dglz.Business", "src\Dglz.B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dglz.Data", "src\Dglz.Data\Dglz.Data.csproj", "{DA2E8B36-1067-4C19-9BD1-4420EDF9FE6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dglz.Api", "src\Dglz.Api\Dglz.Api.csproj", "{DE8083A6-A970-4A98-B8B3-2200969FB4B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DA2E8B36-1067-4C19-9BD1-4420EDF9FE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA2E8B36-1067-4C19-9BD1-4420EDF9FE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA2E8B36-1067-4C19-9BD1-4420EDF9FE6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8083A6-A970-4A98-B8B3-2200969FB4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8083A6-A970-4A98-B8B3-2200969FB4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8083A6-A970-4A98-B8B3-2200969FB4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8083A6-A970-4A98-B8B3-2200969FB4B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

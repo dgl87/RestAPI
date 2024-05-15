@@ -1,0 +1,6 @@
+@Dglz.Api_HostAddress = http://localhost:5216
+
+GET {{Dglz.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
